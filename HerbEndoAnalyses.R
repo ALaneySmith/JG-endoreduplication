@@ -79,3 +79,4 @@ ggplot(data = HerbEndoData, aes(x=HERBICIDE, y=`Log[Endo]`, fill=HABITAT)) +
 ggplot(data = HerbEndoData, aes(x=HABITAT, y=`Log[Endo]`)) +
   geom_violin()+ theme_bw()+ylab("Endopolyploidy")
 
+library(BIEN)
